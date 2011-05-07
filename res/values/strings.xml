@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">Converter file size - time to download</string>
+<string name="app_name">Download Time</string>
+<string name="TextView01">Download Speed </string>
+<string name="TextView02">File size</string>
+<string name="TextView03">Result</string>
+<string name="RadioButton01">kb/s</string>
+<string name="RadioButton02">Mb/s</string>
+<string name="RadioButton03">MB</string>
+<string name="RadioButton04">GB</string>
+<string name="Button01">Convert</string>
+<string name="godzina">Hour</string>
+<string name="minuta">Minutes</string>
+<string name="blad">Only Positive Numbers</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">Przelicznik wielkość pliku - czas ściagania.</string>
+<string name="app_name">Przelicznik Downloadu</string>
+<string name="TextView01">Prędkość łącza</string>
+<string name="TextView02">Rozmiar pliku</string>
+<string name="TextView03">Wynik</string>
+<string name="RadioButton01">kb/s</string>
+<string name="RadioButton02">Mb/s</string>
+<string name="RadioButton03">MB</string>
+<string name="RadioButton04">GB</string>
+<string name="Button01">Przelicz</string>
+<string name="godzina">Godzin</string>
+<string name="minuta">Minut</string>
+<string name="blad">Tylko Liczby Dodatnie</string>
+</resources>

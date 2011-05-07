@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView android:id="@+id/ScrollView01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" android:fadeScrollbars="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    android:textStyle="bold" android:layout_gravity="center" android:textSize="15sp"/>
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TextView01" android:textSize="15sp"></TextView>
+<EditText android:id="@+id/EditText01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="phone"></EditText>
+<RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/RadioGroup01">
+<RadioButton android:id="@+id/RadioButton01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/RadioButton01" android:checked="true"></RadioButton>
+<RadioButton android:id="@+id/RadioButton02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/RadioButton02"></RadioButton>
+</RadioGroup>
+<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TextView02" android:textSize="15sp"></TextView>
+<EditText android:id="@+id/EditText02" android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="phone"></EditText>
+<RadioGroup android:id="@+id/RadioGroup02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<RadioButton android:id="@+id/RadioButton03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/RadioButton03" android:checked="true"></RadioButton>
+<RadioButton android:id="@+id/RadioButton04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/RadioButton04"></RadioButton>
+</RadioGroup>
+<TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TextView03" android:textSize="15sp"></TextView>
+<EditText android:id="@+id/EditText03" android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="phone" android:enabled="false" android:textColor="#ffffffff"></EditText>
+<Button android:id="@+id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:text="@string/Button01" android:minWidth="200sp"></Button>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
